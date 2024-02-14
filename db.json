@@ -1,0 +1,38 @@
+[
+    {
+      "id": 0,
+      "name": "Work",
+      "img": "placeholder",
+      "minutes": 124
+    },
+    {
+      "id": 1,
+      "name": "Play",
+      "img": "placeholder",
+      "minutes": 41
+    },
+    {
+      "id": 2,
+      "name": "Study",
+      "img": "placeholder",
+      "minutes": 60
+    },
+    {
+      "id": 3,
+      "name": "Exercise",
+      "img": "placeholder",
+      "minutes": 181
+    },
+    {
+      "id": 4,
+      "name": "Social",
+      "img": "placeholder",
+      "minutes": 50
+    },
+    {
+      "id": 5,
+      "name": "Self Care",
+      "img": "placeholder",
+      "minutes": 129
+    }
+  ]

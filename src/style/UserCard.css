@@ -1,0 +1,124 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.8rem;
+    min-width: auto;
+}
+
+.user-card__body {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    
+    border-radius: 12px;
+    background-color: rgb(87,70,234);
+}
+
+.user-card__subtitle {
+    color: rgb(192,197,255);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.user-card__title {
+    margin: 0.5rem 0 0;
+    overflow: hidden;
+    max-width: 210px;
+    
+    text-overflow: ellipsis;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.user-card__nav {
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-6px);
+    z-index: 0;
+
+    border-radius: 0px 0px 12px 12px;
+    background-color: rgb(29,32,75);
+}
+
+.user-card__nav-item {
+    font-weight: 300;
+    cursor: pointer;
+    color: rgb(192,197,255);
+}
+
+.user-card__nav-item:hover {
+    color: #fff;
+}
+
+.user-card__nav-item--active {
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+    .user-card {
+        margin-bottom: 0;
+        position: fixed;
+        min-width: 230px;
+    }
+
+    .user-card__body {
+        flex-direction: column;
+        align-items: flex-start;
+        flex-grow: 1;
+        padding: 10rem 4rem 10rem 2.4rem;
+    }
+
+    .user-card__title {
+        font-size: 22px;
+        max-width: 124px;
+    }
+
+    .user-card__nav {
+        position: relative;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.1rem;
+        padding: 30px;
+        padding-bottom: 22px;
+
+        transform: translateY(-140px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .user-card__nav--active {
+        transform: translateY(-6px);
+    }
+    
+    .user-card__nav-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .user-card__nav-toggle {
+        display: block;
+        width: 30px;
+        height: 30px;
+
+        cursor: pointer;
+        background-color: rgb(192,197,255);
+        -webkit-mask-image: url(../assets/arrow-icon.svg);
+        mask-image: url(../assets/arrow-icon.svg);
+        -webkit-mask-size: contain;
+        mask-size: contain;
+    }
+
+    .user-card__nav-toggle:hover {
+        background-color: #fff;
+    }
+
+    .user-card__nav--active .user-card__nav-toggle {
+        transform: rotate(180deg);
+    }
+}
