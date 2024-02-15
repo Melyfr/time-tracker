@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/CSS-1F2544?style=for-the-badge&logo=css3&logoColor=1572B6"/> 
   <img src="https://img.shields.io/badge/React-1F2544?style=for-the-badge&logo=react&logoColor=#61DAFB"/> 
   <img src="https://img.shields.io/badge/Redux-1F2544?style=for-the-badge&logo=redux&logoColor=764ABC"/> 
-  <img src="https://img.shields.io/badge/Vite-1F2544?style=for-the-badge&logo=vite&logoColor=#646CFF"/> 
+  <img src="https://img.shields.io/badge/Webpack-1F2544?style=for-the-badge&logo=webpack&logoColor=#8DD6F9"/> 
   <img src="https://img.shields.io/badge/Node.JS-1F2544?style=for-the-badge&logo=nodedotjs&logoColor=#339933"/> 
   <img src="https://img.shields.io/badge/PostgreSQL-1F2544?style=for-the-badge&logo=postgresql&logoColor=#4169E1"/> 
 </div>
@@ -23,5 +23,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 npm i
 ```
 ```
-npm run dev
+npm run start
 ```
