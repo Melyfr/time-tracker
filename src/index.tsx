@@ -26,7 +26,9 @@ const router = createBrowserRouter([
     path: "signup",
     element: <SignUp />,
   },
-]);
+], {
+  basename: '/time-tracker',
+});
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
