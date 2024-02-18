@@ -1,4 +1,4 @@
-### Time Tracker
+### Time Tracker App
 
 ![Time-Tracker](https://github.com/Melyfr/time-tracker/assets/72978278/81e1e115-d1b4-41d9-97a3-61b7a9749087)
 <div>
@@ -14,7 +14,7 @@
 
 ### О проекте:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Приложение для отслеживания затраченного времени на различные задачи, добавленные пользователем, в срезе дня, недели и месяца. Присутствует регистрация, авторизация и аутентификация через JWT. Все задачи пользователей хранятся на сервере. Интерфейс приложения адаптирован для различных размеров экрана.
 #
 
 ### Быстрый запуск:
