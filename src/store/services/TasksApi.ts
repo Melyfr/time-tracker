@@ -6,7 +6,7 @@ import { SignupInputs } from "../../components/SignUp";
 
 export const tasksApi = createApi({
     reducerPath: 'tasksApi',
-    baseQuery: fetchBaseQuery({baseUrl: 'http://localhost:5000'}),
+    baseQuery: fetchBaseQuery({baseUrl: 'https://time-tracker-back-us2m.onrender.com'}),
     tagTypes: ['Task'],
     endpoints: (builder) => ({
         getTasks: builder.query<ITask[], string>({
